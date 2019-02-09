@@ -1,0 +1,27 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing:inherit;
+}
+
+html {
+    font-size:15%;
+    @media screen and (min-width: $phone-break) {
+        font-size:20%;
+    }
+    @media screen and (min-width: $tablet-break) {
+        font-size:30%;
+    }
+    @media screen and (min-width: $big-tablet-break) {
+        font-size:40%;
+    }
+    @media screen and (min-width: $laptop-break) {
+        font-size:62.5%
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "walk",
+  "version": "1.0.0",
+  "description": "Dog walking site",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Kat",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

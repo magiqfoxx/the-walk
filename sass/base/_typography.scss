@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Kaushan Script";
+    src: url(../fonts/KaushanScript-Regular.otf) format("opentype");
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: $font-size;
+    line-height: 1.7;
+    color: $color-white;
+    padding: 3rem;
+
+    box-sizing:border-box;
+}
+
+#logo{
+    font-family: "Kaushan Script";
+    font-size: 22rem;
+    @media screen and (min-width: $phone-break) {
+        font-size: 16rem;}
+    @media screen and (min-width: $tablet-break) {
+        font-size: 12rem; }
+    @media screen and (min-width: $big-tablet-break) {
+        font-size: 7rem; }
+
+    letter-spacing: 0.5rem;
+    color: $color-light-blue;
+}
+
+h2{
+    text-align:center;
+    font-family: "Cookie";
+    font-size: 20rem;
+    @media screen and (min-width: $tablet-break) {
+        font-size: 15rem; }
+    @media screen and (min-width: $big-tablet-break) {
+        font-size: 10rem;}
+    @media screen and (min-width: $laptop-break) {
+        font-size: 6rem;}
+    font-weight: 300;
+    color: $color-pink;
+}
+
+#motto {
+    font-size: 19.5rem;
+    @media screen and (min-width: $phone-break) {
+        font-size: 16rem;}
+    @media screen and (min-width: $tablet-break) {
+        font-size: 10rem; }
+    @media screen and (min-width: $big-tablet-break) {
+        font-size: 9.5rem;}
+    @media screen and (min-width: $small-laptop-break) {
+        font-size: 9rem;}
+    color: $color-white;
+    text-align: left;
+}
+
+nav {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: $color-white;
+
+    li{
+        font-size:10rem;
+        @media screen and (min-width: $phone-break) {
+            font-size: 8rem;}
+        @media screen and (min-width: $tablet-break) {
+            font-size: 7rem; }
+        @media screen and (min-width: 510px) {
+            font-size: 3rem; }
+        @media screen and (min-width: $big-tablet-break) {
+            font-size: 3rem;}
+        @media screen and (min-width: $laptop-break) {
+            font-size: 1rem;}
+    }
+}
+
+
+
+.offer-card {
+
+    p {
+        color: $color-dark-pink;
+        font-size: 10rem;
+        @media screen and (min-width: $tablet-break) {
+            font-size: 6rem;}
+        @media screen and (min-width: $big-tablet-break) {
+            font-size:3rem;}
+        @media screen and (min-width: $laptop-break) {
+            font-size:2rem;}
+    }
+}
+
+.review-slate {
+    span {
+        color: $color-dark-pink;
+    }
+}
+
+.book-now {
+    color: $color-dark-pink;
+    font-size: 3rem;
+    
+    line-height: 7rem;
+    
+    p {
+        font-size:10rem;
+        @media screen and (min-width: $tablet-break) {
+            font-size: 6rem;}
+        @media screen and (min-width: $laptop-break) {
+            font-size: 2.5rem;}
+    }
+}
+
+button{
+    font-family: "Cookie";
+    color: $color-pink;
+    font-size:6rem;
+    font-weight: 100;
+}
+.footer {
+    color: white;
+}
