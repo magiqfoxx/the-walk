@@ -3,7 +3,7 @@
   src: url(../fonts/KaushanScript-Regular.otf) format("opentype"); }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -11,113 +11,113 @@ body {
   padding: 3rem;
   box-sizing: border-box; }
 
-#logo {
+.main-section--logo {
   font-family: "Kaushan Script";
   font-size: 22rem;
   letter-spacing: 0.5rem;
   color: #DEFFFC; }
   @media screen and (min-width: 400px) {
-    #logo {
+    .main-section--logo {
       font-size: 16rem; } }
   @media screen and (min-width: 450px) {
-    #logo {
+    .main-section--logo {
       font-size: 12rem; } }
   @media screen and (min-width: 800px) {
-    #logo {
+    .main-section--logo {
       font-size: 7rem; } }
 
-h2 {
+.section--title {
   text-align: center;
   font-family: "Cookie";
   font-size: 20rem;
   font-weight: 300;
   color: #E02262; }
   @media screen and (min-width: 450px) {
-    h2 {
+    .section--title {
       font-size: 15rem; } }
   @media screen and (min-width: 800px) {
-    h2 {
+    .section--title {
       font-size: 10rem; } }
   @media screen and (min-width: 1300px) {
-    h2 {
+    .section--title {
       font-size: 6rem; } }
 
-#motto {
+.main-section--motto {
   font-size: 19.5rem;
   color: #FFFFFF;
   text-align: left; }
   @media screen and (min-width: 400px) {
-    #motto {
+    .main-section--motto {
       font-size: 16rem; } }
   @media screen and (min-width: 450px) {
-    #motto {
+    .main-section--motto {
       font-size: 10rem; } }
   @media screen and (min-width: 800px) {
-    #motto {
+    .main-section--motto {
       font-size: 9.5rem; } }
   @media screen and (min-width: 1000px) {
-    #motto {
+    .main-section--motto {
       font-size: 9rem; } }
 
-nav {
+.main-section--nav {
   font-weight: 100;
   text-transform: uppercase;
   color: #FFFFFF; }
-  nav li {
+  .main-section--nav li {
     font-size: 10rem; }
     @media screen and (min-width: 400px) {
-      nav li {
+      .main-section--nav li {
         font-size: 8rem; } }
     @media screen and (min-width: 450px) {
-      nav li {
+      .main-section--nav li {
         font-size: 7rem; } }
     @media screen and (min-width: 510px) {
-      nav li {
+      .main-section--nav li {
         font-size: 3rem; } }
     @media screen and (min-width: 800px) {
-      nav li {
+      .main-section--nav li {
         font-size: 3rem; } }
     @media screen and (min-width: 1300px) {
-      nav li {
+      .main-section--nav li {
         font-size: 1rem; } }
 
-.offer-card p {
+.offer-section--card .offer-section--card--text {
   color: #86626E;
   font-size: 10rem; }
   @media screen and (min-width: 450px) {
-    .offer-card p {
+    .offer-section--card .offer-section--card--text {
       font-size: 6rem; } }
   @media screen and (min-width: 800px) {
-    .offer-card p {
+    .offer-section--card .offer-section--card--text {
       font-size: 3rem; } }
   @media screen and (min-width: 1300px) {
-    .offer-card p {
+    .offer-section--card .offer-section--card--text {
       font-size: 2rem; } }
 
-.review-slate span {
+.reviews-section--slate span {
   color: #86626E; }
 
-.book-now {
+.booking-section {
   color: #86626E;
   font-size: 3rem;
   line-height: 7rem; }
-  .book-now p {
+  .booking-section .booking-section--text {
     font-size: 10rem; }
     @media screen and (min-width: 450px) {
-      .book-now p {
-        font-size: 6rem; } }
+      .booking-section .booking-section--text {
+        font-size: 4rem; } }
     @media screen and (min-width: 1300px) {
-      .book-now p {
+      .booking-section .booking-section--text {
         font-size: 2.5rem; } }
 
-button {
+.booking-section--button {
   font-family: "Cookie";
   color: #E02262;
   font-size: 6rem;
   font-weight: 100; }
 
-.footer {
-  color: white; }
+footer {
+  color: #FFFFFF; }
 
 *, *::after, *::before {
   margin: 0;
@@ -145,7 +145,7 @@ body {
   box-sizing: border-box; }
 
 @media screen and (min-width: 800px) {
-  .offer-card {
+  .offer-section--card {
     display: inline-block;
     min-height: 45rem;
     max-width: 25vw;
@@ -155,32 +155,32 @@ body {
     box-shadow: 5px 7px 10px 0px rgba(0, 0, 0, 0.25); } }
 
 @media screen and (min-width: 1300px) {
-  .offer-card {
+  .offer-section--card {
     min-height: 35rem;
     max-width: 20vw;
     margin: 0 6vw; } }
 
-.offer-card img {
+.offer-section--card img {
   display: none; }
   @media screen and (min-width: 800px) {
-    .offer-card img {
+    .offer-section--card img {
       display: block;
       max-width: 25vw; } }
   @media screen and (min-width: 1300px) {
-    .offer-card img {
+    .offer-section--card img {
       max-width: 20vw; } }
 
-.offer-card p {
+.offer-section--card .offer-section--card--text {
   margin: 0 2rem; }
   @media screen and (min-width: 800px) {
-    .offer-card p {
+    .offer-section--card .offer-section--card--text {
       transform: rotate(-5deg);
       margin: 1rem 1.7rem 0 2rem; } }
   @media screen and (min-width: 1300px) {
-    .offer-card p {
+    .offer-section--card .offer-section--card--text {
       margin: 1rem 1.7rem 0 2rem; } }
 
-.review-slate {
+.reviews-section--slate {
   margin: 3rem;
   height: 20rem;
   padding-top: 2rem;
@@ -189,40 +189,40 @@ body {
   box-shadow: 7px 10px 7px 0px rgba(0, 0, 0, 0.3);
   font-style: italic; }
   @media screen and (min-width: 450px) {
-    .review-slate {
+    .reviews-section--slate {
       margin: 6rem auto;
       padding: 1rem;
       max-width: 100vw;
       min-height: 6rem;
       height: 15vh; } }
   @media screen and (min-width: 800px) {
-    .review-slate {
+    .reviews-section--slate {
       padding: 2rem;
       padding-top: 1.5rem;
       min-height: 4rem;
       height: 10vh; } }
   @media screen and (min-width: 1000px) {
-    .review-slate {
+    .reviews-section--slate {
       padding: 1rem;
       width: 70vw; } }
   @media screen and (min-width: 1300px) {
-    .review-slate {
+    .reviews-section--slate {
       max-width: 80rem; } }
-  .review-slate img {
+  .reviews-section--slate img {
     display: none; }
     @media screen and (min-width: 800px) {
-      .review-slate img {
+      .reviews-section--slate img {
         display: block;
         width: 7rem;
         border-radius: 30px;
         float: right;
         margin-top: -0.2rem; } }
     @media screen and (min-width: 1300px) {
-      .review-slate img {
+      .reviews-section--slate img {
         width: 5rem;
         float: right;
         margin-top: -0.6rem; } }
-  .review-slate span {
+  .reviews-section--slate span {
     margin: 0 auto;
     text-align: center; }
 
@@ -230,150 +230,157 @@ section {
   height: 100vh;
   display: block; }
 
-section.main {
-  background-image: linear-gradient(to left top, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.6)), url(../img/main.jpg);
+.main-section {
+  background-image: linear-gradient(to left top, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.6)), url(../img/mains.jpg);
   background-size: cover;
   background-position: bottom; }
-
-header h1 {
-  display: inline-block;
-  margin-top: 5vh;
-  margin-left: 7vw; }
-
-header nav {
-  display: block;
-  text-transform: uppercase; }
-  @media screen and (min-width: 450px) {
-    header nav {
-      margin-top: 3rem; } }
-  @media screen and (min-width: 510px) {
-    header nav {
-      float: right;
-      margin-top: 1rem; } }
-  header nav ul {
-    list-style-type: none; }
-  header nav li {
-    padding: 1rem 3rem; }
+  .main-section .main-section--logo {
+    display: inline-block;
+    margin-top: 5vh;
+    margin-left: 7vw; }
+  .main-section .main-section--nav {
+    display: block;
+    text-transform: uppercase; }
+    @media screen and (min-width: 450px) {
+      .main-section .main-section--nav {
+        margin-top: 3rem; } }
     @media screen and (min-width: 510px) {
-      header nav li {
-        display: inline;
-        padding: 1rem; } }
+      .main-section .main-section--nav {
+        float: right;
+        margin-top: 1rem; } }
+    .main-section .main-section--nav ul {
+      list-style-type: none; }
+    .main-section .main-section--nav li {
+      padding: 1rem 3rem; }
+      @media screen and (min-width: 510px) {
+        .main-section .main-section--nav li {
+          display: inline;
+          padding: 1rem; } }
+      @media screen and (min-width: 800px) {
+        .main-section .main-section--nav li {
+          padding: 1rem 3rem; } }
+      .main-section .main-section--nav li:hover {
+        background-color: rgba(0, 0, 0, 0.4); }
+  .main-section .main-section--motto {
+    background-color: rgba(219, 175, 193, 0.5);
+    margin: 1rem 2rem;
+    width: 92vw; }
+    @media screen and (min-width: 510px) {
+      .main-section .main-section--motto {
+        margin-left: 5rem;
+        margin-top: 40vh;
+        max-width: 75vw;
+        clear: both; } }
     @media screen and (min-width: 800px) {
-      header nav li {
-        padding: 1rem 3rem; } }
-    header nav li:hover {
-      background-color: rgba(0, 0, 0, 0.4); }
+      .main-section .main-section--motto {
+        margin-top: 40vh;
+        max-width: 75vw; } }
+    @media screen and (min-width: 1300px) {
+      .main-section .main-section--motto {
+        margin-top: 32vh;
+        max-width: 75vw; } }
 
-header #motto {
-  background-color: rgba(219, 175, 193, 0.5);
-  margin: 1rem 2rem;
-  width: 92vw; }
-  @media screen and (min-width: 510px) {
-    header #motto {
-      margin-left: 5rem;
-      margin-top: 40vh;
-      max-width: 75vw;
-      clear: both; } }
-  @media screen and (min-width: 800px) {
-    header #motto {
-      margin-top: 40vh;
-      max-width: 75vw; } }
-  @media screen and (min-width: 1300px) {
-    header #motto {
-      margin-top: 32vh;
-      max-width: 75vw; } }
-
-section.offer h2 {
+section.offer-section .section--title {
   text-align: center;
   font-weight: 700;
   letter-spacing: 10px;
   margin-top: 4rem;
   margin-bottom: 7rem; }
 
-section.offer p {
+section.offer-section .offer-section--card--text {
   margin-bottom: 4rem;
   background-color: rgba(219, 175, 193, 0.2); }
   @media screen and (min-width: 800px) {
-    section.offer p {
+    section.offer-section .offer-section--card--text {
       background-color: transparent; } }
 
-section.reviews {
+section.reviews-section {
   background-image: url(../img/reviews.jpg);
   background-size: cover;
   background-position: left;
   padding: 5rem; }
 
-section.book-now {
-  padding-top: 2rem;
-  background-color: #DBAFC1; }
-  @media screen and (min-width: 450px) {
-    section.book-now {
-      padding: 4rem; } }
-  section.book-now p {
-    margin: 3rem; }
-    @media screen and (min-width: 800px) {
-      section.book-now p {
-        display: inline-block;
-        max-width: 50vw;
-        margin-left: 2rem; } }
-  section.book-now img {
+section.booking-section {
+  padding: 6rem;
+  background-color: #dbafc12e;
+  background-image: url(../img/booking.jpg);
+  background: linear-gradient(#dbafc1ba, #dbafc1ba), url(../img/booking.jpg); }
+  @media screen and (min-width: 1300px) {
+    section.booking-section {
+      padding: 20rem 15rem; } }
+  @media screen and (min-width: 1000px) {
+    section.booking-section {
+      padding: 10rem; } }
+  section.booking-section .booking-section--map {
     display: block;
     margin: 0 auto;
-    width: 60vw; }
+    width: 60vw;
+    box-shadow: 7px 9px 10px #ab929c; }
     @media screen and (min-width: 450px) {
-      section.book-now img {
+      section.booking-section .booking-section--map {
         float: right;
         max-width: 35vw; } }
     @media screen and (min-width: 1300px) {
-      section.book-now img {
+      section.booking-section .booking-section--map {
         max-width: 25vw; } }
-  section.book-now button {
+  section.booking-section .booking-section--text {
+    margin: 3rem;
+    line-height: 10rem;
+    background-color: rgba(255, 255, 255, 0.38);
+    border: 20px solid #dbafc11c;
+    border-radius: 20px; }
+    @media screen and (min-width: 450px) {
+      section.booking-section .booking-section--text {
+        display: inline-block;
+        max-width: 44vw; } }
+    @media screen and (min-width: 1300px) {
+      section.booking-section .booking-section--text {
+        max-width: 40vw; } }
+  section.booking-section .booking-section--button {
     margin: 5vh auto;
     display: block;
     width: 70vw;
     height: 10vh;
-    background-color: #e8fffd;
-    border-radius: 20px;
-    border-color: #86626E; }
+    background-color: rgba(219, 175, 193, 0.5);
+    border-radius: 0px;
+    border: 6px outset rgba(219, 175, 193, 0.2);
+    box-shadow: 3px 1px 20px rgba(0, 0, 0, 0.25); }
+    section.booking-section .booking-section--button:active {
+      border-style: inset; }
     @media screen and (min-width: 450px) {
-      section.book-now button {
+      section.booking-section .booking-section--button {
         height: 20rem;
-        margin: 10vh auto;
+        margin: 0vh auto;
         max-width: 40rem;
         max-height: 20rem; } }
-    @media screen and (min-width: 1300px) {
-      section.book-now button {
+    @media screen and (min-width: 1000px) {
+      section.booking-section .booking-section--button {
+        margin: 10vh auto;
         max-width: 30rem;
         max-height: 15rem; } }
 
 footer {
-  padding-top: 2rem;
+  padding: 2rem 20rem;
   min-height: 20rem;
   background-color: #86626E;
   color: #FFFFFF; }
-  footer p {
-    display: inline-block; }
-    @media screen and (min-width: 450px) {
-      footer p {
-        max-width: 30vw; } }
-    @media screen and (min-width: 800px) {
-      footer p {
-        margin-left: 20rem;
-        width: 40rem; } }
-    @media screen and (min-width: 1300px) {
-      footer p {
-        width: 20rem; } }
-  footer ul {
+  footer .footer--nav ul {
     list-style-type: none; }
     @media screen and (min-width: 450px) {
-      footer ul {
-        float: right;
-        margin-right: 0rem;
-        margin-bottom: 2rem; } }
+      footer .footer--nav ul {
+        float: right; } }
+  footer .footer--address {
+    display: inline-block; }
+    @media screen and (min-width: 450px) {
+      footer .footer--address {
+        max-width: 30vw; } }
     @media screen and (min-width: 800px) {
-      footer ul {
-        margin-right: 20rem; } }
-  footer span {
+      footer .footer--address {
+        width: 40rem; } }
+    @media screen and (min-width: 1300px) {
+      footer .footer--address {
+        width: 20rem; } }
+  footer .footer--span {
     text-align: center;
     display: block;
     clear: both; }
