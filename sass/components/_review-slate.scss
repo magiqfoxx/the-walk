@@ -32,15 +32,15 @@
 
   img {
     display: none;
+    max-width: 10rem;
     @media screen and (min-width: $big-tablet-break) {
       display: block;
-      width: 7rem;
+
       border-radius: 30px;
       float: right;
       margin-top: -0.2rem;
     }
     @media screen and (min-width: $laptop-break) {
-      width: 5rem;
       float: right;
       margin-top: -0.6rem;
     }

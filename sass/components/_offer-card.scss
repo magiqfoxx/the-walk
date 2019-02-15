@@ -4,7 +4,7 @@
   @media screen and (min-width: $big-tablet-break) {
     display: inline-block;
     min-height: 45rem;
-    max-width: 25vw;
+    max-width: 20vw;
     margin: 0 4vw;
 
     background-color: rgba($color-light-pink, 0.2);
@@ -21,7 +21,7 @@
     display: none;
     @media screen and (min-width: $big-tablet-break) {
       display: block;
-      max-width: 25vw;
+      max-width: 100%;
     }
     @media screen and (min-width: $laptop-break) {
       max-width: 20vw;

@@ -1,5 +1,5 @@
 section {
-  height: 100vh;
+  min-height: 100vh;
   display: block;
 }
 
@@ -72,6 +72,7 @@ section {
 }
 
 section.offer-section {
+  padding: 8rem;
   .section--title {
     text-align: center;
     font-weight: 700;
@@ -79,11 +80,23 @@ section.offer-section {
     margin-top: 4rem;
     margin-bottom: 7rem;
   }
+  .offer-section--cards {
+    @media screen and (min-width: $big-tablet-break) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
   .offer-section--card--text {
     margin-bottom: 4rem;
     background-color: rgba($color-light-pink, 0.2);
+    min-height: 14vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     @media screen and (min-width: $big-tablet-break) {
       background-color: transparent;
+      min-height: 0;
     }
   }
 }
@@ -93,6 +106,17 @@ section.reviews-section {
   background-size: cover;
   background-position: left;
   padding: 5rem; //adding margin to child will not work
+  .reviews-section--slates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .reviews-section--slate {
+      display: flex;
+      span {
+        align-self: center;
+      }
+    }
+  }
 }
 
 section.booking-section {
@@ -100,6 +124,7 @@ section.booking-section {
   background-color: #dbafc12e;
   background-image: url(../img/booking.jpg);
   background: linear-gradient(#dbafc1ba, #dbafc1ba), url(../img/booking.jpg);
+  background-size: cover;
 
   @media screen and (min-width: $laptop-break) {
     padding: 20rem 15rem;
@@ -107,7 +132,11 @@ section.booking-section {
   @media screen and (min-width: $small-laptop-break) {
     padding: 10rem;
   }
-
+  .booking-section--right {
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
   .booking-section--map {
     display: block;
     margin: 0 auto;
@@ -138,6 +167,14 @@ section.booking-section {
     }
   }
   .booking-section--button {
+    float: right;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 100px;
+    background-color: lightsteelblue;
+    margin-top: 10rem;
+    align-self: center;
+    /*
     margin: 5vh auto;
     display: block;
     width: 70vw;
@@ -161,7 +198,7 @@ section.booking-section {
       margin: 10vh auto;
       max-width: 30rem;
       max-height: 15rem;
-    }
+    }*/
   }
 }
 
