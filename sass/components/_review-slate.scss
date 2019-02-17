@@ -21,7 +21,7 @@
   }
 
   @media screen and (min-width: $laptop-break) {
-    max-width: 80rem;
+    max-width: 60vw;
   }
 
   background-color: white;
@@ -49,5 +49,10 @@
   span {
     margin: 0 auto;
     text-align: center;
+    @media screen and (min-width: $laptop-break) {
+      width: 100%;
+      text-align: right;
+      padding-right: 3rem;
+    }
   }
 }

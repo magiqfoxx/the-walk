@@ -29,6 +29,7 @@
   }
   .offer-section--card--text {
     margin: 0 2rem;
+    padding-top: 2rem;
     @media screen and (min-width: $big-tablet-break) {
       transform: rotate(-5deg);
       margin: 1rem 1.7rem 0 2rem;

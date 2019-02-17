@@ -171,7 +171,8 @@ body {
       max-width: 20vw; } }
 
 .offer-section--card .offer-section--card--text {
-  margin: 0 2rem; }
+  margin: 0 2rem;
+  padding-top: 2rem; }
   @media screen and (min-width: 800px) {
     .offer-section--card .offer-section--card--text {
       transform: rotate(-5deg);
@@ -207,7 +208,7 @@ body {
       width: 70vw; } }
   @media screen and (min-width: 1300px) {
     .reviews-section--slate {
-      max-width: 80rem; } }
+      max-width: 60vw; } }
   .reviews-section--slate img {
     display: none;
     max-width: 10rem; }
@@ -224,6 +225,11 @@ body {
   .reviews-section--slate span {
     margin: 0 auto;
     text-align: center; }
+    @media screen and (min-width: 1300px) {
+      .reviews-section--slate span {
+        width: 100%;
+        text-align: right;
+        padding-right: 3rem; } }
 
 section {
   min-height: 100vh;
@@ -330,68 +336,50 @@ section.booking-section {
   @media screen and (min-width: 1000px) {
     section.booking-section {
       padding: 10rem; } }
-  section.booking-section .booking-section--right {
-    display: flex;
-    flex-direction: column;
-    float: right; }
   section.booking-section .booking-section--map {
     display: block;
     margin: 0 auto;
     width: 60vw;
-    box-shadow: 7px 9px 10px #ab929c; }
-    @media screen and (min-width: 450px) {
+    border-radius: 11px;
+    /*box-shadow: 7px 9px 10px #ab929c;*/ }
+    @media screen and (min-width: 800px) {
       section.booking-section .booking-section--map {
+        display: inline-block;
         float: right;
-        max-width: 35vw; } }
+        max-width: 40vw; } }
     @media screen and (min-width: 1300px) {
       section.booking-section .booking-section--map {
-        max-width: 25vw; } }
+        max-width: 30vw; } }
   section.booking-section .booking-section--text {
     margin: 3rem;
+    margin-bottom: 5rem;
     line-height: 10rem;
     background-color: rgba(255, 255, 255, 0.38);
     border: 20px solid #dbafc11c;
     border-radius: 20px; }
     @media screen and (min-width: 450px) {
       section.booking-section .booking-section--text {
-        display: inline-block;
-        max-width: 44vw; } }
-    @media screen and (min-width: 1300px) {
+        display: inline-block; } }
+    @media screen and (min-width: 800px) {
       section.booking-section .booking-section--text {
-        max-width: 40vw; } }
+        float: left;
+        max-width: 40vw;
+        margin-bottom: 10rem; } }
   section.booking-section .booking-section--button {
-    float: right;
-    width: 30rem;
-    height: 30rem;
-    border-radius: 100px;
-    background-color: lightsteelblue;
-    margin-top: 10rem;
-    align-self: center;
-    /*
-    margin: 5vh auto;
+    width: 40rem;
+    height: 20rem;
+    margin: 0rem auto;
     display: block;
-    width: 70vw;
-    height: 10vh;
-
+    clear: both;
     background-color: rgba(219, 175, 193, 0.5);
-    border-radius: 0px;
-    border: 6px outset rgba(219, 175, 193, 0.2);
-    box-shadow: 3px 1px 20px rgba(0, 0, 0, 0.25);
-
-    &:active {
-      border-style: inset;
-    }
-    @media screen and (min-width: $tablet-break) {
-      height: 20rem;
-      margin: 0vh auto;
-      max-width: 40rem;
-      max-height: 20rem;
-    }
-    @media screen and (min-width: $small-laptop-break) {
-      margin: 10vh auto;
-      max-width: 30rem;
-      max-height: 15rem;
-    }*/ }
+    border: 1px solid #e02262;
+    border-radius: 4px; }
+  section.booking-section .booking-section--button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: rgba(232, 88, 88, 0.5);
+    color: #f5d8d8;
+    border: none; }
 
 footer {
   padding: 2rem 20rem;
