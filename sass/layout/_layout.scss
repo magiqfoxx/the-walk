@@ -22,6 +22,7 @@ section {
   .main-section--nav {
     display: block;
     text-transform: uppercase;
+
     @media screen and (min-width: $tablet-break) {
       margin-top: 3rem;
     }
@@ -178,26 +179,27 @@ section.booking-section {
 
     clear: both;
 
-    background-color: rgba(219, 175, 193, 0.5);
+    background-color: $color-light-pink;
 
-    border: 1px solid #e02262;
+    border: 1px solid $color-pink;
     border-radius: 4px;
   }
 
   .booking-section--button:hover {
     transform: scale(1.1);
     transition: 1s;
-    background-color: rgba(232, 88, 88, 0.5);
-    color: #f5d8d8;
+    background-color: $color-pink;
+    color: white;
     border: none;
+    cursor: pointer;
   }
 }
 
 footer {
   padding: 2rem 20rem;
   min-height: 20rem;
-  background-color: $color-dark-pink;
-  color: $color-white;
+  background-color: white;
+  color: $color-pink;
 
   .footer--nav {
     ul {
